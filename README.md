@@ -1,28 +1,10 @@
-# Компонент поиска
+# Search Component
 
-## Как запустить проект
+## Desciption
 
-1. Выполнить в директории проекта
+Here are the results of the following task:
 
-```bash
-npm install
-```
-
-2. Для запуска в режиме разработки выполнить
-
-```bash
-npm run dev
-```
-
-## Задания
-
-- проверить и поправить функциональность (сейчас выведены mock данные, поиск не работает).
-  На ввод в поисковую строку должен идти запрос к api для поиска пользователя.
-  Для запроса к api используйте fetch api.
-- реализовать поиск пользователей со стороннего ресурса https://dummyjson.com/users/search?q=John
-  q - это поисковый запрос
-- покрыть типизацией (будет плюсом)
-- подумать над оптимизациями приложения (будет плюсом)
-
-Предусмотрите все нюансы (обработка ошибок, оптимизация работы с сетью и т.д.), которые вы знаете и все потенциальные нештатные ситуации, но не тратьте на это слишком много времени (1-4 часа).
-Удачи!
+- check and correct functionality (mock data is now displayed, search does not work). When entered into the search bar, there should be a request to the API to search for the user. To make a request to the api, use fetch api.
+- implement search for users from a third-party resource https://dummyjson.com/users/search?q=John q is a search query
+- cover with typing (will be a plus)
+- think about application optimizations (would be a plus)
