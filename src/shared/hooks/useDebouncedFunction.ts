@@ -1,12 +1,10 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect } from 'react';
 
 type Timer = ReturnType<typeof setTimeout>;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type SomeFunction = (...args: any[]) => void;
 
-export function useDebounce(
-  func: SomeFunction,
-  delay = 1000
-) {
+export function useDebounce(func: SomeFunction, delay = 1000) {
   const timer = useRef<Timer>();
 
   useEffect(() => {
